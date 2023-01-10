@@ -1,0 +1,44 @@
+.topnav {
+    display: flex;
+    flex-direction: row-reverse;
+    overflow: hidden;
+}
+#containerone{
+    background-color: #42DFD0;
+}
+#containertwo{
+    background-color: #5E9EA0;
+}
+#containerthree{
+    background-color: #708090;
+}
+.topnav >  div {
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.message{
+    display: flex;
+    overflow: hidden;
+    padding: 10px;
+}
+#one{
+    text-align: right;
+    padding-right: 80px;
+}
+#two{
+    text-align: left;
+}
+.message > div {
+    padding: 2%;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    border-style: solid;
+
+}
+  

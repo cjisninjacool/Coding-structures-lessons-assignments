@@ -1,0 +1,46 @@
+body {
+    background-color: #30638e;
+    font-family: 'Goldman', cursive;
+}
+
+#content {
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: #00798c;
+    width: 375px;
+    margin: 10% auto;
+}
+form {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+h1 {
+    color: #edae49;
+}
+label {
+    display: block;
+    color: #edae49;
+}
+button {
+    margin: 5px;
+    border-radius: 10px;
+    background-color: #003D5B;
+    color: white;
+}
+button:hover {
+    background-color: #D1495B;
+    border-radius: 10px;
+}
+#contactCard{ 
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: #00798c;
+    width: 375px;
+    margin: 10% auto;
+    height: 300px;    
+}
+#contactCard h2{
+    color: #edae49;
+}

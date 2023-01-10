@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+.paraTwo {
+    color: purple;
+    font-size: 1.2em; 
+    font-weight: 700; /* <-- add this line */
+    border-style: dashed double dotted double;}
+#paraOne {
+    color: white;
+    background-color: #000000;
+    text-align: justify;
+}
+body {
+    font-family: 'Dosis',sans-serif;
+}

@@ -1,0 +1,13 @@
+.classOne {
+    background-color: green;
+}
+
+.hidden {
+    display: none;
+}
+
+div {
+    background-color: lightgrey;
+    padding: 15px;
+    margin: 5px;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 10 Final</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="Heading">
+        <h1>Create Your Own Pizza</h1>
+    </div>
+    <div class="createOrder" style="border-style:solid;">
+        <h3>Available Crusts</h3>
+        <p>Original Crust</p>
+        <p>Thin Crust</p>
+        
+        <h3>Available Sauces</h3>
+        <p>Classic Tomato</p>
+        <p>Spicy Marinara</p>
+        <p>White Garlic Sauce</p>
+    
+        <h3>Available Toppings</h3>
+        <p>Chicken</p>
+        <p>Pepperoni</p>
+        <p>Cheese</p>
+        <p>Mushrooms</p>
+        <p>Baby Spinach</p>
+        <p>Olives</p>
+    </div>
+    <br>
+    <div id = "form" style="border-style:solid;">
+        <div id = "SauceCrust">
+        <label for="crust">Chose your Crust:</label>
+        <input type="text" id="crust" />
+        <br>
+        <label for="sauce">Choose Your Sauce:</label>
+        <input type="text" id="sauce" />
+        </div>  
+        <tr>
+            <th>
+                <label for="toppingone" class = "Topping">Topping 1:</label>
+                <input type="text" id="toppingone" class = "Topping" />
+                <label for="toppingtwo" class = "Topping">Topping 2:</label>
+                <input type="text" id="toppingtwo" class = "Topping"/>
+                <label bel for="toppingthree" class = "Topping">Topping 3:</label>
+                <input type="text" id="toppingthree" class = "Topping"/>
+            </th>
+        </tr>
+        <br>
+        <button id = "button">Create Order</button>    
+    </div>
+    <br>
+    <div id="order">
+        <p>Completed Pizza Order:</p>
+        <div id = "pizzaOrder"></div>
+        <div id = "Toppings"></div>
+        <p id =>Sales Total:</p>
+        <div id = "Total"></div>
+    </div>
+    <div id = "Price"></div>
+
+
+    
+    <script src="sctipt.js"></script>
+</body>
+</html>
